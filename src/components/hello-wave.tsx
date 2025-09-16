@@ -1,10 +1,18 @@
 import Animated from 'react-native-reanimated';
+import { StyleSheet } from 'react-native-unistyles';
 
 export function HelloWave() {
   return (
     <Animated.Text
-      style={{
-        fontSize: 28,
+      style={styles.text}>
+      👋
+    </Animated.Text>
+  );
+}
+
+const styles = StyleSheet.create((theme) => ({
+  text: {
+    fontSize: 28,
         lineHeight: 32,
         marginTop: -6,
         animationName: {
@@ -12,8 +20,5 @@ export function HelloWave() {
         },
         animationIterationCount: 4,
         animationDuration: '300ms',
-      }}>
-      👋
-    </Animated.Text>
-  );
-}
+  },
+}));
