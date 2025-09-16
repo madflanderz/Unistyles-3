@@ -26,3 +26,15 @@ run this to see the error:
 npm install
 npm run android
 ```
+
+
+Environment and details
+
+- Expo 54.0.7
+- React Native 0.81.4
+- React 19.1.0
+- React Native Unistyles 3.0.12
+- babel.config.js added
+- code moved to src folder
+- index.tsx added
+- unistyles.ts added
